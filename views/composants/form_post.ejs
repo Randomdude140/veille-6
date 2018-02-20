@@ -3,6 +3,15 @@
     <input type = "text" placeholder="Nom" name = "nom"> 
     <input type = "text" placeholder="Prénom" name = "prenom">
     <input type = "text" placeholder="Téléphone" name = "telephone">
+    <input type="submit" value='Modifier'>
+    <a href="/detruire/<%= adresse._id %>">Détruire </a>
+</form>
+
+<h5>Formulaire ajouter</h5>
+<form class='mon_formulaire' action="/ajouter" name='mon_formulaire_2' id='mon_formulaire_2' method="POST" >
+    <input type = "text" placeholder="Nom" name = "nom"> 
+    <input type = "text" placeholder="Prénom" name = "prenom">
+    <input type = "text" placeholder="Téléphone" name = "telephone">
     <input type="submit" value='Ajouter'>
-    <a href="/detruire/<%= adr._id %>">Détruire </a>
+
 </form>
